@@ -1,7 +1,7 @@
 #ifndef _BLOOMFILTER_H_
 #define _BLOOMFILTER_H_
 
-#define MAX_HASH_FUNCTIONS      2
+#define MAX_HASH_FUNCTIONS      3
 #define NUMBER_OF_BYTES         65536u
 #define NUMBER_OF_BITS          (NUMBER_OF_BYTES / 8u)
 
