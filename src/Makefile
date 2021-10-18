@@ -9,7 +9,7 @@ LIBS=
 _DEPS = bloomfilter.h hash.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = bloomfilter.o hash.o main.o
+_OBJ = bloomfilter.o hash.o 
 OBJ = $(patsubst %,%,$(_OBJ))
 
 %.o: %.c $(DEPS)
